@@ -1,0 +1,14 @@
+# service name
+spring:
+  application:
+    name: gallery-service
+
+# port
+server:
+  port: 8100
+
+# eureka server url
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka

@@ -1,0 +1,10 @@
+server:
+  port: 8761
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+spring:
+  cloud:
+    compatibility-verifier:
+      enabled: false 
